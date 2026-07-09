@@ -2,12 +2,24 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=cursos.pdf">
-    <title>Redireccionando...</title>
+    <title>Cursos Dictados</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #808080;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <p>Si la redirección no funciona, haz clic aquí:
-        <a href="cursos.pdf">Cursos</a>
-    </p>
+    <iframe src="cursos.pdf#zoom=125"></iframe>
 </body>
 </html>
